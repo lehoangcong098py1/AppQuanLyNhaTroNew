@@ -7,5 +7,7 @@ const getall = require('./Models/NhaTro');
 router.get('/getnhatro', getall.getAllpost);
 router.post('/InsetNhaTro',getall.InsetNhaTro);
 router.post('/LayDanhSachBL',getall.LayDanhSachBL);
+router.post('/getnhatroid',getall.getAllpostID);
+router.post('/laythongtinnguoidung',getall.LayThongTinNguoiDung);
 
 module.exports = router;

@@ -9,5 +9,5 @@ router.post('/InsetNhaTro',getall.InsetNhaTro);
 router.post('/LayDanhSachBL',getall.LayDanhSachBL);
 router.post('/getnhatroid',getall.getAllpostID);
 router.post('/laythongtinnguoidung',getall.LayThongTinNguoiDung);
-
+router.post('/ThemBinhLuan',getall.ThemBinhLuan);
 module.exports = router;
